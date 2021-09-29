@@ -14,7 +14,7 @@ from unet3d.scripts.predict import format_parser as format_prediction_args
 from unet3d.scripts.predict import run_inference
 from unet3d.scripts.script_utils import get_machine_config, add_machine_config_to_parser
 
-
+# 输入参数解析
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config_filename", required=True,
